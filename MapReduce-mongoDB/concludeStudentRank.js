@@ -22,7 +22,7 @@ var map = function() {emit(this.name,this.marks);};
 // Reduce Function 
 var reduce = function(name,marks) {return Array.sum(marks);};
 
-// Conclude 
+// Conclude or summarize  
 db.students.mapReduce(
     map,
     reduce,
